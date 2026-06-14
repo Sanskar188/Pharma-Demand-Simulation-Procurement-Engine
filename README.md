@@ -1,16 +1,142 @@
-# React + Vite
+# 💊 Aegis Flow - AI Pharma Procurement Suite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aegis Flow is an intelligent pharmaceutical demand simulation and procurement optimization platform designed for wholesalers, distributors, hospitals, and pharmacies.
 
-Currently, two official plugins are available:
+The platform analyzes historical procurement data, forecasts medicine demand, identifies inventory risks, and generates optimal purchasing recommendations using inventory management principles such as FEFO, Safety Stock Analysis, Reorder Point Calculation, and EOQ (Economic Order Quantity).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Demand Forecasting
+- Historical demand analysis
+- Monthly medicine consumption trends
+- Future demand prediction
+- Procurement planning assistance
 
-## Expanding the ESLint configuration
+### 📦 Inventory Optimization
+- Current inventory visibility
+- Overstock detection
+- Stockout risk identification
+- Safety stock recommendations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔄 FEFO Management
+- First Expired First Out simulation
+- Expiry risk detection
+- Inventory rotation planning
+- Waste reduction insights
+
+### 📈 Procurement Intelligence
+- Reorder point calculation
+- Economic Order Quantity (EOQ)
+- Purchase recommendations
+- Supplier planning support
+
+### 💰 Profitability Analysis
+- Revenue contribution analysis
+- Product profitability ranking
+- Margin optimization insights
+- High-value medicine identification
+
+### ⚠ Risk Management
+- Excess inventory alerts
+- Low inventory alerts
+- Expiring stock alerts
+- Procurement risk assessment
+
+### 📉 Analytics Dashboard
+- Interactive KPI cards
+- Procurement trends
+- Demand visualization
+- Inventory health metrics
+
+### 📂 CSV Data Upload
+Upload historical procurement data in CSV format and instantly generate:
+
+- Demand forecasts
+- Inventory analysis
+- Procurement recommendations
+- Executive summary reports
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
+
+### Backend (Future Expansion)
+- FastAPI / Flask
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+### Data Processing
+- CSV Parsing
+- Inventory Simulation Engine
+- Demand Forecasting Models
+- EOQ Calculation Engine
+
+---
+
+## 📁 Expected CSV Format
+
+| Product Name | Quantity | Month | Year |
+|-------------|----------|--------|------|
+| Crocin | 1200 | January | 2020 |
+| Dolo 650 | 950 | January | 2020 |
+| Azithromycin | 750 | January | 2020 |
+
+Required Fields:
+
+- Product Name (String)
+- Quantity (Number)
+- Month
+- Year
+
+---
+
+## 📊 Key Metrics Calculated
+
+### Inventory Metrics
+- Safety Stock
+- Reorder Point
+- Current Stock Status
+- Service Level
+
+### Procurement Metrics
+- EOQ
+- Annual Demand
+- Ordering Cost
+- Holding Cost
+
+### Business Metrics
+- Revenue
+- Profit
+- Profit Margin
+- Inventory Turnover Ratio
+
+---
+
+## 🎯 Target Users
+
+- Pharmaceutical Wholesalers
+- Drug Distributors
+- Retail Pharmacies
+- Hospital Supply Chains
+- Healthcare Procurement Teams
+- Inventory Managers
+
+---
+
+## ⚡ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/aegis-flow.git
